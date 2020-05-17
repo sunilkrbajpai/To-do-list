@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" type="text/css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<script src="https://kit.fontawesome.com/5c14fb59bd.js" crossorigin="anonymous"></script>
+
+<title>To-do List in Vanilla JS</title>
+</head>
+
+<body>
+<div id="main">
+<div id="myDIV" class="header">
+  <h1 style="margin:5px">TO-DO List</h1>
+  <i id="todo-icon" class="far fa-list-alt"></i>
+  <input type="text" id="Input" placeholder="Add task to the list...">
+  <i id="addicon" class="fas fa-plus-circle" onclick="newElement()"></i>
+  <span id="count">0 tasks left</span>
+</div>
+
+<ul id="task-items">
+    <!-- ul items added by icon -->
+</ul>
+</div>
+<script src="tasks.js"></script>
+</body>
+</html>
