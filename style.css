@@ -122,4 +122,11 @@ body {
     color: black;
     font-weight: bold;
   }
-  
+  @media screen and (max-width: 500px) {
+    input{
+      width:90%;
+    }
+    #addicon{
+      display: none;
+    }
+  }
