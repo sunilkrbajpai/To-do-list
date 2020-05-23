@@ -33,7 +33,7 @@ function newElement()
    {
     document.getElementById("task-items").appendChild(li);
     n++;
-    count.textContent=n+" tasks left";
+    count.textContent="TOTAL: "+n+" tasks";
   }
   document.getElementById("Input").value = "";
 
@@ -48,7 +48,7 @@ function newElement()
       var div = this.parentElement;
       div.style.display = "none";
       n--;
-      count.textContent=n+" tasks left";
+      count.textContent="TOTAL: "+n+" tasks";
     }
   }
 }
